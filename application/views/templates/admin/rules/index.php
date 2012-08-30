@@ -1,4 +1,4 @@
-<div class="btn-group">
+<div class="btn-group navbar">
   <a class="btn" href="/admin/goods/"><i class="icon-arrow-left"></i> Список товаров</a>
   <a class="btn btn-primary" href="/admin/rules/add/"><i class="icon-plus icon-white"></i> Добавить ценовую категорию</a>
 </div>

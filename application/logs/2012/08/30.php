@@ -1438,3 +1438,751 @@
 --
 #0 D:\OPENSERVER\domains\net33\www\index.php(109): Kohana_Request->execute()
 #1 {main}
+2012-08-30 15:27:32 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:27:32 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:27:38 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:27:38 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:27:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:27:41 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:27:43 --- ERROR: Database_Exception [ 1049 ]: Unknown database 'net33' ~ MODPATH\database\classes\kohana\database\mysql.php [ 108 ]
+2012-08-30 15:27:43 --- STRACE: Database_Exception [ 1049 ]: Unknown database 'net33' ~ MODPATH\database\classes\kohana\database\mysql.php [ 108 ]
+--
+#0 D:\domains\net33\modules\database\classes\kohana\database\mysql.php(75): Kohana_Database_MySQL->_select_db('net33')
+#1 D:\domains\net33\modules\database\classes\kohana\database\mysql.php(171): Kohana_Database_MySQL->connect()
+#2 D:\domains\net33\modules\database\classes\kohana\database\mysql.php(358): Kohana_Database_MySQL->query(1, 'SHOW FULL COLUM...', false)
+#3 D:\domains\net33\modules\orm\classes\kohana\orm.php(1538): Kohana_Database_MySQL->list_columns('ruleses')
+#4 D:\domains\net33\modules\orm\classes\kohana\orm.php(392): Kohana_ORM->list_columns()
+#5 D:\domains\net33\modules\orm\classes\kohana\orm.php(337): Kohana_ORM->reload_columns()
+#6 D:\domains\net33\modules\orm\classes\kohana\orm.php(246): Kohana_ORM->_initialize()
+#7 D:\domains\net33\modules\orm\classes\kohana\orm.php(37): Kohana_ORM->__construct(NULL)
+#8 D:\domains\net33\application\classes\controller\admin\rules.php(9): Kohana_ORM::factory('rules')
+#9 [internal function]: Controller_Admin_Rules->action_index()
+#10 D:\domains\net33\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Admin_Rules))
+#11 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#12 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#13 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#14 {main}
+2012-08-30 15:27:45 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:27:45 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:28:52 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:28:52 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:28:56 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL admin/users was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 87 ]
+2012-08-30 15:28:56 --- STRACE: HTTP_Exception_404 [ 404 ]: The requested URL admin/users was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 87 ]
+--
+#0 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#1 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#2 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#3 {main}
+2012-08-30 15:28:57 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:28:57 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:28:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:28:59 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:29:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:29:00 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:29:02 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:29:02 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:29:07 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:29:07 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:29:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:29:09 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:30:17 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:30:17 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:30:21 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:30:21 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:30:48 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:30:48 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:30:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:30:51 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:31:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:31:16 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:31:26 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:31:26 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:31:38 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:31:38 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:31:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:31:40 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:31:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:31:50 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:31:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:31:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:32:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:32:09 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:32:17 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:32:17 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:32:19 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:32:19 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:32:20 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:32:20 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:32:23 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:32:23 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:25 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:29 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:29 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:31 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:36 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:37 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:45 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:45 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:47 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:47 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:48 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:48 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:51 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:51 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:33:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:33:54 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:34:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:34:41 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:37:10 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:37:10 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:37:21 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:37:21 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:37:35 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:37:35 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:38:46 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:38:46 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:39:28 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:39:28 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:43:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:43:25 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:43:49 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:43:49 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:44:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:44:31 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:44:47 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:44:47 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:45:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:45:30 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:45:46 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:45:46 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:47:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:47:09 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:47:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:47:24 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:48:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:48:36 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:48:46 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:48:46 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:48:49 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:48:49 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:48:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:48:50 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:48:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:48:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:54:19 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:54:19 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:54:35 --- ERROR: ErrorException [ 1 ]: Class 'Model_Goods' not found ~ MODPATH\orm\classes\kohana\orm.php [ 37 ]
+2012-08-30 15:54:35 --- STRACE: ErrorException [ 1 ]: Class 'Model_Goods' not found ~ MODPATH\orm\classes\kohana\orm.php [ 37 ]
+--
+#0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main}
+2012-08-30 15:54:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:54:36 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:55:12 --- ERROR: Database_Exception [ 1146 ]: Table 'net33.goodses' doesn't exist [ SHOW FULL COLUMNS FROM `goodses` ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 194 ]
+2012-08-30 15:55:12 --- STRACE: Database_Exception [ 1146 ]: Table 'net33.goodses' doesn't exist [ SHOW FULL COLUMNS FROM `goodses` ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 194 ]
+--
+#0 D:\domains\net33\modules\database\classes\kohana\database\mysql.php(358): Kohana_Database_MySQL->query(1, 'SHOW FULL COLUM...', false)
+#1 D:\domains\net33\modules\orm\classes\kohana\orm.php(1538): Kohana_Database_MySQL->list_columns('goodses')
+#2 D:\domains\net33\modules\orm\classes\kohana\orm.php(392): Kohana_ORM->list_columns()
+#3 D:\domains\net33\modules\orm\classes\kohana\orm.php(337): Kohana_ORM->reload_columns()
+#4 D:\domains\net33\modules\orm\classes\kohana\orm.php(246): Kohana_ORM->_initialize()
+#5 D:\domains\net33\modules\orm\classes\kohana\orm.php(37): Kohana_ORM->__construct(NULL)
+#6 D:\domains\net33\application\classes\controller\admin\goods.php(39): Kohana_ORM::factory('goods')
+#7 [internal function]: Controller_Admin_Goods->action_save()
+#8 D:\domains\net33\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#9 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#10 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#11 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#12 {main}
+2012-08-30 15:55:13 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:55:13 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:55:58 --- ERROR: Database_Exception [ 1146 ]: Table 'net33.goods' doesn't exist [ SHOW FULL COLUMNS FROM `goods` ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 194 ]
+2012-08-30 15:55:58 --- STRACE: Database_Exception [ 1146 ]: Table 'net33.goods' doesn't exist [ SHOW FULL COLUMNS FROM `goods` ] ~ MODPATH\database\classes\kohana\database\mysql.php [ 194 ]
+--
+#0 D:\domains\net33\modules\database\classes\kohana\database\mysql.php(358): Kohana_Database_MySQL->query(1, 'SHOW FULL COLUM...', false)
+#1 D:\domains\net33\modules\orm\classes\kohana\orm.php(1538): Kohana_Database_MySQL->list_columns('goods')
+#2 D:\domains\net33\modules\orm\classes\kohana\orm.php(392): Kohana_ORM->list_columns()
+#3 D:\domains\net33\modules\orm\classes\kohana\orm.php(337): Kohana_ORM->reload_columns()
+#4 D:\domains\net33\modules\orm\classes\kohana\orm.php(246): Kohana_ORM->_initialize()
+#5 D:\domains\net33\modules\orm\classes\kohana\orm.php(37): Kohana_ORM->__construct(NULL)
+#6 D:\domains\net33\application\classes\controller\admin\goods.php(39): Kohana_ORM::factory('goods')
+#7 [internal function]: Controller_Admin_Goods->action_save()
+#8 D:\domains\net33\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#9 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#10 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#11 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#12 {main}
+2012-08-30 15:56:00 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:56:00 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:57:35 --- ERROR: ErrorException [ 2 ]: array_key_exists() expects exactly 2 parameters, 1 given ~ APPPATH\classes\controller\admin\goods.php [ 44 ]
+2012-08-30 15:57:35 --- STRACE: ErrorException [ 2 ]: array_key_exists() expects exactly 2 parameters, 1 given ~ APPPATH\classes\controller\admin\goods.php [ 44 ]
+--
+#0 [internal function]: Kohana_Core::error_handler(2, 'array_key_exist...', 'D:\domains\net3...', 44, Array)
+#1 D:\domains\net33\application\classes\controller\admin\goods.php(44): array_key_exists(Array)
+#2 [internal function]: Controller_Admin_Goods->action_save()
+#3 D:\domains\net33\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#4 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#5 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#6 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#7 {main}
+2012-08-30 15:57:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:57:37 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 15:58:14 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 15:58:14 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:00:21 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:00:21 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:00:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:00:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:00:30 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:00:30 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:01:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:01:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:01:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:01:59 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:01 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:01 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:04 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:04 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:06 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:18 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:18 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:24 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:50 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:50 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:52 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:52 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:56 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:56 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:02:58 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:02:58 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:03:02 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:03:02 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:03:05 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:03:05 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:03:08 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:03:08 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:03:10 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:03:10 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:03:12 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:03:12 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:03:15 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:03:15 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:05:04 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:05:04 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:06:40 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:06:40 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:09:12 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:09:12 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:11:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:11:09 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:11:31 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:11:31 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:11:37 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL admin/goods/edit/1 was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 111 ]
+2012-08-30 16:11:37 --- STRACE: HTTP_Exception_404 [ 404 ]: The requested URL admin/goods/edit/1 was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 111 ]
+--
+#0 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#1 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#2 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#3 {main}
+2012-08-30 16:11:38 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:11:38 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:11:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:11:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:12:09 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:12:09 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:12:24 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:12:24 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:12:37 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:12:37 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:13:16 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:13:16 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:13:41 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:13:41 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:18:19 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:18:19 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:19:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:19:59 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:20:42 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:20:42 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:20:55 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:20:55 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:26:27 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:26:27 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:31:20 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:31:20 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:31:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:31:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:32:08 --- ERROR: HTTP_Exception_404 [ 404 ]: The requested URL admin/goods/edit/1 was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 111 ]
+2012-08-30 16:32:08 --- STRACE: HTTP_Exception_404 [ 404 ]: The requested URL admin/goods/edit/1 was not found on this server. ~ SYSPATH\classes\kohana\request\client\internal.php [ 111 ]
+--
+#0 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#1 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#2 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#3 {main}
+2012-08-30 16:32:08 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:32:08 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:33:31 --- ERROR: View_Exception [ 0 ]: The requested view templates/admin/goods/edit could not be found ~ SYSPATH\classes\kohana\view.php [ 252 ]
+2012-08-30 16:33:31 --- STRACE: View_Exception [ 0 ]: The requested view templates/admin/goods/edit could not be found ~ SYSPATH\classes\kohana\view.php [ 252 ]
+--
+#0 D:\domains\net33\system\classes\kohana\view.php(137): Kohana_View->set_filename('templates/admin...')
+#1 D:\domains\net33\system\classes\kohana\view.php(30): Kohana_View->__construct('templates/admin...', NULL)
+#2 D:\domains\net33\application\classes\controller\admin\goods.php(39): Kohana_View::factory('templates/admin...')
+#3 [internal function]: Controller_Admin_Goods->action_edit()
+#4 D:\domains\net33\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#5 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#6 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#7 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#8 {main}
+2012-08-30 16:33:32 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:33:32 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:35:54 --- ERROR: ErrorException [ 8 ]: Undefined variable: item ~ APPPATH\views\templates\admin\goods\edit.php [ 3 ]
+2012-08-30 16:35:54 --- STRACE: ErrorException [ 8 ]: Undefined variable: item ~ APPPATH\views\templates\admin\goods\edit.php [ 3 ]
+--
+#0 D:\domains\net33\application\views\templates\admin\goods\edit.php(3): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\domains\net3...', 3, Array)
+#1 D:\domains\net33\system\classes\kohana\view.php(61): include('D:\domains\net3...')
+#2 D:\domains\net33\system\classes\kohana\view.php(343): Kohana_View::capture('D:\domains\net3...', Array)
+#3 D:\domains\net33\system\classes\kohana\view.php(228): Kohana_View->render()
+#4 D:\domains\net33\application\views\layouts\admin.php(28): Kohana_View->__toString()
+#5 D:\domains\net33\system\classes\kohana\view.php(61): include('D:\domains\net3...')
+#6 D:\domains\net33\system\classes\kohana\view.php(343): Kohana_View::capture('D:\domains\net3...', Array)
+#7 D:\domains\net33\system\classes\kohana\controller\template.php(44): Kohana_View->render()
+#8 [internal function]: Kohana_Controller_Template->after()
+#9 D:\domains\net33\system\classes\kohana\request\client\internal.php(119): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#10 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#11 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#12 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#13 {main}
+2012-08-30 16:35:54 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:35:54 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:36:43 --- ERROR: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\kohana\orm.php [ 897 ]
+2012-08-30 16:36:43 --- STRACE: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\kohana\orm.php [ 897 ]
+--
+#0 D:\domains\net33\application\classes\controller\admin\goods.php(41): Kohana_ORM->find()
+#1 [internal function]: Controller_Admin_Goods->action_edit()
+#2 D:\domains\net33\system\classes\kohana\request\client\internal.php(116): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#3 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#4 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#5 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#6 {main}
+2012-08-30 16:36:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:36:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:36:58 --- ERROR: ErrorException [ 8 ]: Undefined variable: rules ~ APPPATH\views\templates\admin\goods\edit.php [ 26 ]
+2012-08-30 16:36:58 --- STRACE: ErrorException [ 8 ]: Undefined variable: rules ~ APPPATH\views\templates\admin\goods\edit.php [ 26 ]
+--
+#0 D:\domains\net33\application\views\templates\admin\goods\edit.php(26): Kohana_Core::error_handler(8, 'Undefined varia...', 'D:\domains\net3...', 26, Array)
+#1 D:\domains\net33\system\classes\kohana\view.php(61): include('D:\domains\net3...')
+#2 D:\domains\net33\system\classes\kohana\view.php(343): Kohana_View::capture('D:\domains\net3...', Array)
+#3 D:\domains\net33\system\classes\kohana\view.php(228): Kohana_View->render()
+#4 D:\domains\net33\application\views\layouts\admin.php(28): Kohana_View->__toString()
+#5 D:\domains\net33\system\classes\kohana\view.php(61): include('D:\domains\net3...')
+#6 D:\domains\net33\system\classes\kohana\view.php(343): Kohana_View::capture('D:\domains\net3...', Array)
+#7 D:\domains\net33\system\classes\kohana\controller\template.php(44): Kohana_View->render()
+#8 [internal function]: Kohana_Controller_Template->after()
+#9 D:\domains\net33\system\classes\kohana\request\client\internal.php(119): ReflectionMethod->invoke(Object(Controller_Admin_Goods))
+#10 D:\domains\net33\system\classes\kohana\request\client.php(64): Kohana_Request_Client_Internal->execute_request(Object(Request))
+#11 D:\domains\net33\system\classes\kohana\request.php(1154): Kohana_Request_Client->execute(Object(Request))
+#12 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#13 {main}
+2012-08-30 16:36:59 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:36:59 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:37:19 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:37:19 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:37:53 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:37:53 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:38:22 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:38:22 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:39:04 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:39:04 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:42:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:42:06 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:42:29 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:42:29 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:42:39 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:42:39 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:42:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:42:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:55:10 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:55:10 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:57:06 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:57:06 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:57:12 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:57:12 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:57:25 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:57:25 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:57:36 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:57:36 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}
+2012-08-30 16:57:43 --- ERROR: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+2012-08-30 16:57:43 --- STRACE: HTTP_Exception_404 [ 404 ]: Unable to find a route to match the URI: favicon.ico ~ SYSPATH\classes\kohana\request.php [ 1142 ]
+--
+#0 D:\domains\net33\www\index.php(109): Kohana_Request->execute()
+#1 {main}

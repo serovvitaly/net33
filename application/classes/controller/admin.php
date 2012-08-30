@@ -34,8 +34,13 @@ class Controller_Admin extends Controller_Template {
             
             $model = ORM::factory($controller);
             
+            $columns = $model->list_columns();
+            
             foreach ($data AS $item_name => $item_value) {
-                $model->set($item_name, $item_value);
+                if (in_array($item_name, array_keys($columns))) {
+                    $model->set($item_name, $item_value);
+                }
+                
             }
             
             $model->save();
