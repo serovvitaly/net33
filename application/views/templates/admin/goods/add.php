@@ -19,6 +19,24 @@
     <label>Артикул:</label>
     <input type="text" name="goods[articul]" class="span3">
 
+    <label>Видимость:</label>
+    <select name="goods[show]" class="span2">
+      <option value="0">скрыт</option>
+      <option value="1">активен</option>
+    </select>
+    
+    <label>Категория:</label>
+    <select name="goods[cat_id]" class="span4">
+      <option>- - -</option>
+    <?
+    if (count($cats) > 0) {
+        foreach ($cats AS $cat) {
+            echo '<option value="' . $cat->id . '">' . $cat->name . '</option>';
+        }
+    }
+    ?>
+    </select>
+    
     <label>Описание:</label>
     <textarea cols="" rows="4" name="goods[descript]" class="span5"></textarea>
 

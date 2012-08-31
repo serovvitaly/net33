@@ -24,6 +24,8 @@ class Controller_Admin_Goods extends Controller_Admin {
         
         $view->rules = ORM::factory('rules')->find_all()->as_array();
         
+        $view->cats  = ORM::factory('cats')->find_all()->as_array();
+        
         $this->template->content = $view;
     }
     
@@ -40,7 +42,9 @@ class Controller_Admin_Goods extends Controller_Admin {
         
         $view->rules = ORM::factory('rules')->find_all()->as_array();
         
-        $view->item = ORM::factory('goods', $id);
+        $view->cats  = ORM::factory('cats')->find_all()->as_array();
+        
+        $view->item  = ORM::factory('goods', $id);
         
         $this->template->content = $view;
     }

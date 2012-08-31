@@ -12,7 +12,14 @@ class Model_Goods extends ORM {
         'prices' => array(
             'model' => 'price',
             'foreign_key' => 'good_id'
-        )
+        ),
+    );
+    
+    protected $_belongs_to = array(
+        'cat' => array(
+            'model' => 'cats',
+            'foreign_key' => 'cat_id'
+        ),
     );
     
     public function __construct($id = NULL)
