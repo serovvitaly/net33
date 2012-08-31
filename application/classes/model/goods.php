@@ -6,6 +6,8 @@ class Model_Goods extends ORM {
     
     protected $_prices_list = array();
     
+    protected $_prices = array();
+    
     protected $_has_many = array(
         'prices' => array(
             'model' => 'price',
@@ -21,11 +23,22 @@ class Model_Goods extends ORM {
         
         if (count($_prices_list) > 0) {
             foreach ($_prices_list AS $_price) {
+                $this->_prices[$_price->rule_id] = $_price;
                 $this->_prices_list[$_price->rule_id] = $_price->price;
             }
         }
         
     }
+    
+    
+    /**
+    * Устанавливаем составной ключ
+    * 
+    */
+    /*public function primary_key() {
+       return array('good_id', 'rule_id');
+    }*/
+    
     
     /**
     * Возвращает цену для заданной ценовой категории
@@ -40,5 +53,17 @@ class Model_Goods extends ORM {
         
         return NULL;
     }
+    
+    /*public function set_price($rule_id, $value)
+    {        
+        if (isset($this->_prices[$rule_id])) {
+            
+            print_r($this->_prices[$rule_id]);
+            echo '<hr/>';
+            
+            $this->_prices[$rule_id]->price = $value;
+            $this->_prices[$rule_id]->save();
+        }
+    }*/
 
 } // End

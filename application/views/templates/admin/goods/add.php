@@ -15,6 +15,9 @@
   <div class="span6">
     <label>Наименование:</label>
     <input type="text" name="goods[title]" class="span5">
+    
+    <label>Артикул:</label>
+    <input type="text" name="goods[articul]" class="span3">
 
     <label>Описание:</label>
     <textarea cols="" rows="4" name="goods[descript]" class="span5"></textarea>

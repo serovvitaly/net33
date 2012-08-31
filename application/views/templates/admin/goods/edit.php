@@ -18,6 +18,9 @@
     <label>Наименование:</label>
     <input type="text" name="goods[title]" class="span5" value="<?=$item->title?>">
 
+    <label>Артикул:</label>
+    <input type="text" name="goods[articul]" class="span3" value="<?=$item->articul?>">
+    
     <label>Описание:</label>
     <textarea cols="" rows="4" name="goods[descript]" class="span5"><?=$item->descript?></textarea>
 

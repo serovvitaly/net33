@@ -24,7 +24,7 @@
   ?>
     <tr>
       <td>
-        <strong><?=$item->title?></strong> (<?=$item->id?>)<br/>
+        <strong><?=$item->title?></strong> (<?=$item->id?>) - Арт.: <?=$item->articul?><br/>
         <?=$item->descript?>
         <div>          
           <a href="/admin/goods/edit/<?=$item->id?>" style="color: green;">редактировать</a>
