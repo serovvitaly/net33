@@ -104,12 +104,21 @@ class Controller_Admin_Goods extends Controller_Admin {
                 
             }
             
+            print_r($data);
+            exit;
+            
             $model->save();
             
             if ($id < 1) {
                 $id = $model->id;
             }
             
+            // сохраняем картинку
+            $sizes = array('400x300','207x155','160x120');
+            
+            
+            
+            // сохраняем цены
             if (count($prices_mix) > 0) {
                 foreach ($prices_mix AS $price_rule => $price_value) {
                     $price_instance = ORM::factory('price', array(

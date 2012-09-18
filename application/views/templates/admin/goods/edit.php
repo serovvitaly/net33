@@ -1,4 +1,4 @@
-<form action="/admin/goods/save/" method="post">
+<form action="/admin/goods/save/" method="post" enctype="multipart/form-data">
 
 <input type="hidden" name="goods[id]" value="<?=$item->id?>">
 
@@ -55,7 +55,8 @@
   
   <div class="span6">
     <label>Картинка:</label>
-    <input type="file" name="good[image]" class="span6">
+    <input type="file" name="goods[image]" class="span6">
+    <input type="text" name="goods[image2]" class="span6">
   </div>
   
 </div>

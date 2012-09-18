@@ -1,4 +1,4 @@
-<form action="/admin/goods/save/" method="post">
+<form action="/admin/goods/save/" method="post" enctype="multipart/form-data">
 
 <div class="btn-group navbar">
   <a class="btn" href="/admin/goods/"><i class="icon-arrow-left"></i> Список товаров</a>
@@ -52,7 +52,7 @@
   
   <div class="span6">
     <label>Картинка:</label>
-    <input type="file" name="good[image]" class="span6">
+    <input type="file" name="goods[image]" class="span6">
   </div>
   
 </div>

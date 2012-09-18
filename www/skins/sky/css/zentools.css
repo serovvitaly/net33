@@ -1,0 +1,354 @@
+/* @override 
+	http://localhost:8888/dev/platform/modules/mod_zentools/css/zentools.css
+	http://localhost:8888/zentools/modules/mod_zentools/css/zentools.css
+	http://localhost:8888/qs/Grid2/modules/mod_zentools/css/zentools.css
+*/
+
+/*------------------------------------------------------------------
+Module:	Zentools
+Version:	Joomla 1.5 / Joomla 1.7
+Copyright:	Joomlabamboo
+Created:	December 2011
+---------------------------------------------------*/
+
+
+/*  General Styling
+-----------------------------------------------------------------------------*/
+.zentools {
+position:relative;
+float:left;
+width:100%
+}
+
+.zentools ul {
+float:left;
+width:100%;
+margin:0
+}
+
+.zentools li {
+list-style-type:none;
+padding:0
+}
+
+.zentext,.zentitle,.zenimage {
+clear:both
+}
+
+.zenimage,.zenvideo,.zentools .grid ul {
+float:left;
+width:100%
+}
+
+
+/* Modal Window
+-----------------------------------------------------------------------------*/
+img.modal {
+margin-bottom:20px;
+box-shadow:0 0 3px rgba(0, 0, 0, .2);
+-moz-box-shadow:0 0 3px rgba(0, 0, 0, .2);
+-webkit-box-shadow:0 2px 3px rgba(0, 0, 0, .3);
+background:#fff;
+border:0
+}
+
+/* Video Elements
+-----------------------------------------------------------------------------*/
+video {
+width:100% !important;
+height:auto !important
+}
+
+.video-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:0;
+height:0;
+overflow:hidden
+}
+
+.video-container iframe,.video-container object,.video-container embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:94%
+}
+
+.allitems.video {
+display:none;
+text-indent:-9999em;
+background:0;
+height:0
+}
+
+/* Main content
+-----------------------------------------------------------------------------*/
+.zencontent {
+padding:20px 0
+}
+
+/* Image Effects
+-----------------------------------------------------------------------------*/
+.zenborder img,.zenborder .zenvideo {
+border:1px solid #ddd;
+background:#eee;
+margin:0 10px 10px 0;
+padding:4px
+}
+
+.zenshadow img {
+-moz-box-shadow:0 0 5px #888;
+-webkit-box-shadow:0 0 5px;
+box-shadow:0 0 5px #888
+}
+
+.zenrounded img {
+border-radius:4px
+}
+
+.zenroundedshadow img {
+-moz-box-shadow:0 0 5px #888;
+-webkit-box-shadow:0 0 5px;
+box-shadow:0 0 5px #888;
+border-radius:4px
+}
+
+/* Accordion
+-----------------------------------------------------------------------------*/
+.zentools .accordion .grid_one,.zentools .accordion .grid_two,.zentools .accordion .grid_three,.zentools .accordion .grid_four,.zentools.accordion .grid_six,.zentools .accordion .grid_eight,.zentools .accordion .grid_twelve {
+width:100%
+}
+
+.zentools.accordion ul {
+width:98%;
+margin:0
+}
+
+.zentools.accordion .firstitem {
+border-bottom:1px solid #eee;
+cursor:pointer;
+margin:10px 0
+}
+
+.zentools.accordion .firstitem,.zentools.accordion .firstitem.open {
+background:url(../images/accordion/accordion.png) no-repeat left 6px;
+padding-left:30px
+}
+
+.zentools.accordion .firstitem.open {
+background-position:0 -74px
+}
+
+.zentools.accordion .first {
+cursor:pointer;
+border-bottom:1px solid #ddd;
+margin-bottom:20px
+}
+
+.zentools.masonry li.grid_2,.zentools.masonry li.grid_six {
+width:40.5%
+}
+
+.zentools.masonry li.grid_3,.zentools.masonry li.grid_four {
+width:29%
+}
+
+.zentools.masonry li.grid_4,.zentools.masonry li.grid_three {
+width:20.75%
+}
+
+.zentools.masonry li.grid_6,.zentools.masonry li.grid_two {
+width:11%
+}
+
+.zentools.masonry li.grid_12,.zentools.masonry li.grid_one {
+width:4.5%
+}
+
+.zentools.masonry img {
+margin-bottom:20px
+}
+
+/* Carousel
+-----------------------------------------------------------------------------*/
+.zentools.carousel .zenitem {width:94%;padding: 10px;}
+.zentools.carousel.overlay .zenitem {width:94%;padding: 0;}
+
+/* Slideshow
+-----------------------------------------------------------------------------*/
+.zentools.slideshow li {
+margin:0
+}
+
+.slideshowoverlay .allitems,.slideshowoverlayFrame .allitems {
+position:absolute;
+bottom:30px;
+background:rgba(0,0,0,.4);
+color:#fff;
+width:92%;
+padding:10px 4%
+}
+
+.slideshowoverlay h2 a,.slideshowoverlayFrame .allitems h2 a {
+color:#fff
+}
+
+.zenitem {
+position:relative
+}
+
+.slideshowoverlayFrame {
+background:#f9f9f9;
+border:1px solid #eee;
+border-radius:4px;
+float:left;
+width:94%;
+padding:20px
+}
+
+.slideshowflat .flex-direction-nav li a {
+top:-45px;
+z-index:11
+}
+
+ul.slidenav {
+float:left;position: relative;z-index: 20;
+width:75%
+}
+
+.slidenavnumbers ul li,.slidenavdiscs ul li {
+float:left;
+margin-right:8px;
+background:#eee;
+border-radius:4px;
+cursor:pointer;
+margin-bottom:12px;
+padding:4px 8px
+}
+
+.slidenavnumbers ul li.active {
+background:#999;
+color:#fff
+}
+
+.slidenavdiscs ul li {
+background:url(../images/slideshow/nav.png) 0 0 no-repeat;
+display:block;
+text-indent:-9999em;
+margin:0
+}
+
+.slidenavdiscs ul li.active {
+background:url(../images/slideshow/nav.png) 0 -79px no-repeat;
+display:block;
+text-indent:-9999em;
+margin:0
+}
+
+.slidenavtitle {
+position:absolute;
+right:0
+}
+
+.slidenavthumb ul li {
+margin-bottom:12px;
+float:left;
+margin-right:10px;
+cursor:pointer
+}
+
+/* List Styling
+-----------------------------------------------------------------------------*/
+.zentools.list ul li {
+list-style-type:none;
+border-bottom:1px solid #ddd;
+float:left;
+width:100%;
+line-height:1.8;
+margin:0;
+padding:20px 0
+}
+
+.zentools.list h2 {
+margin-bottom:0
+}
+
+
+/* Accordion
+-----------------------------------------------------------------------------*/
+.zentools h2,.zentools.accordion h2,.zentools.grid h2,.zentools.slideshow h2,.slideshowoverlayFrame .allitems h2 {
+margin:0;
+padding:0
+}
+
+.zeninner,.zentools li .zenitem,.zentools.accordion {
+width:100%;
+float:left
+}
+
+
+/* Masonry
+-----------------------------------------------------------------------------*/
+.zentools.masonry li.grid_1,.zentools.masonry li.grid_twelve,.zentools.masonry li.full {
+width:94%
+}
+
+.zentools.masonry .zenitem,.zentools .grid .zenitem,.zentools.grid .zenitem {
+margin-bottom:30px
+}
+
+
+/* Grid Settings
+-----------------------------------------------------------------------------*/
+.zentools.nomargin .grid_one,.zentools.nomargin .grid_two,.zentools.nomargin .grid_three,.zentools.nomargin .grid_four,.zentools.nomargin .grid_five,.zentools.nomargin .grid_six,.zentools.nomargin .grid_seven,.zentools.nomargin .grid_eight,.zentools.nomargin .grid_nine,.zentools.nomargin .grid_ten,.zentools.nomargin .grid_eleven,.zentools.nomargin .grid_twelve,.zentools.nomargin .zenitem.image {margin: 0;}
+
+.zentools.nomargin .zenlast {float: left;}
+
+
+/* Resize the grid values if no margin is assigned. */ 
+.zentools.nomargin .grid_twelve,.zentools.nomargin .grid_1 {width: 100%;float: left;}
+.zentools.nomargin .grid_six,.zentools.nomargin .grid_2 {width: 50%;float: left;} 
+.zentools.nomargin .grid_four,.zentools.nomargin .grid_3{width: 33.3333333%;float: left;}
+.zentools.nomargin .grid_three,.zentools.nomargin .grid4{width: 25%;float: left;}
+.zentools.nomargin .grid_two,.zentools.nomargin .grid6{width: 16.6666667%;float: left;}
+.zentools.nomargin .grid_one,.zentools.nomargin .grid12{width: 8.333333%;float: left;}
+
+
+/* Overlay Effect
+-----------------------------------------------------------------------------*/
+.zentools.overlay li {
+overflow: hidden;
+}
+
+.zentools.overlay .allitems {
+position: absolute;z-index: 10;background: url(../images/blackOverlay.png);display: none;width: 92.5%;padding: 8px 4%
+}
+
+.zentools.overlay .allitems a,.zentools.overlay .allitems {
+color: #fff;
+}
+
+
+	
+	
+@media only screen and max-width 600px  {
+.slideshowoverlay .allitems,.slideshowoverlayFrame .allitems {
+bottom:60px
+}
+
+.grid_twelve .zencontent,.zentools .grid_twelve .imagecontainer,ul.slidenav {
+width:100%
+}
+
+.zentools.masonry .grid_1,.zentools.masonry .grid_2,.zentools.masonry .grid_3,.zentools.masonry .grid_4,.zentools.masonry .grid_5,.zentools.masonry .grid_6 {
+width:97% !important;
+margin-left:2%
+}
+
+
+
+.zentools.accordion .grid_twelve,.zentools.slideshow li.grid_twelve {
+margin:0
+}
+}

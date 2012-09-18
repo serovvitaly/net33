@@ -1,7 +1,7 @@
 <div class="btn-group navbar">
   <a class="btn btn-primary" href="/admin/goods/add/"><i class="icon-plus icon-white"></i> Добавить товар</a>
   <a class="btn" href="/admin/rules/"><i class="icon-align-left"></i> Управление категориями цен</a>
-  <a class="btn btn-info" href="/admin/rules/"><i class="icon-folder-open icon-white"></i> Категории товаров</a>
+  <a class="btn btn-info" href="/admin/cats/"><i class="icon-folder-open icon-white"></i> Категории товаров</a>
 </div>
 
 
