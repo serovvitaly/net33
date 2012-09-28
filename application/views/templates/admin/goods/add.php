@@ -52,7 +52,7 @@
   
   <div class="span6">
     <label>Картинка:</label>
-    <input type="file" name="goods[image]" class="span6">
+    <input type="file" name="image" class="span6">
   </div>
   
 </div>

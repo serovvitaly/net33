@@ -25,7 +25,7 @@
       foreach ($items AS $item) {
   ?>
     <tr>
-      <td><img src="<?= ($item->id=='' ? '' : '/skins/default/img/160x120.gif') ?>" alt=""></td>
+      <td><img src="<?= ($item->image == '' ? '/skins/default/img/160x120.gif' : '/data/sources/160x120/' . $item->image) ?>" alt=""></td>
       <td>
         <strong><?=$item->title?></strong>
         <div>

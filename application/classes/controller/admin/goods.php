@@ -80,6 +80,34 @@ class Controller_Admin_Goods extends Controller_Admin {
         
         if (count($data) > 0) {
             
+            
+            // сохраняем картинку
+            $sizes = array('400x300','207x155','160x120');
+            
+            
+            $image = Image::factory( $_FILES['image']['tmp_name'] );
+            
+            $ims_dir = $_SERVER['DOCUMENT_ROOT'] . '/data/sources/';
+            
+            $image_name = '';
+            
+            if (count($sizes) > 0) {
+                foreach ($sizes AS $size) {
+                    
+                    if (!file_exists($ims_dir . $size)) {
+                        mkdir($ims_dir . $size);
+                    }
+                    
+                    $image_name = $_FILES['image']['name'];
+                    
+                    $image_size = explode('x', $size);
+                    $image->resize($image_size[0], $image_size[1]);
+                    $image->save($ims_dir . $size . '/' . $image_name);
+                }
+            }
+            
+            
+            // обработка принятых данных
             $id = isset($data['id']) ? $data['id'] : NULL;
             
             $model = ORM::factory($controller, $id);
@@ -104,19 +132,13 @@ class Controller_Admin_Goods extends Controller_Admin {
                 
             }
             
-            print_r($data);
-            exit;
+            $model->set('image', $image_name);
             
             $model->save();
             
             if ($id < 1) {
                 $id = $model->id;
             }
-            
-            // сохраняем картинку
-            $sizes = array('400x300','207x155','160x120');
-            
-            
             
             // сохраняем цены
             if (count($prices_mix) > 0) {

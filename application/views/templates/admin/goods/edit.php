@@ -55,8 +55,11 @@
   
   <div class="span6">
     <label>Картинка:</label>
-    <input type="file" name="goods[image]" class="span6">
-    <input type="text" name="goods[image2]" class="span6">
+    <input type="file" name="image" class="span6">
+    <div style="margin-top: 20px;">
+      <h5><?= $item->image ?></h5>
+      <img src="<?= ($item->image == '' ? '/skins/default/img/160x120.gif' : '/data/sources/400x300/' . $item->image) ?>" alt="">
+    </div>
   </div>
   
 </div>

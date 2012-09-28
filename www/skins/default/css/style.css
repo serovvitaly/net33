@@ -8,3 +8,9 @@ body{
 .btn-group > .btn, .btn-group > .dropdown-menu{
     font-size: 12px;
 }
+
+
+.table img{
+    padding: 1px;
+    border: 1px solid #D0D0D0;
+}
